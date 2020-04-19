@@ -13,3 +13,8 @@
  *= require_tree .
  *= require_self
  */
+@import "bootstrap/scss/bootstrap";
+@import "components/navbar";
+@import "pages";
+@import "show";
+@import "font-awesome";

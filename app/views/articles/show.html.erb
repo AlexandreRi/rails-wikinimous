@@ -1,0 +1,10 @@
+<div class="content-show">
+    <h2> <%= @article.title %>
+      <small>
+        <%= link_to edit_article_path(@article) do %><i class="fas fa-pencil-alt"></i><% end %>
+        <%= link_to destroy_article_path(@article), method: :delete do %><i class="fa fa-trash" aria-hidden="true"></i><% end %>
+      </small>
+    </h2>
+  <p><%= @article.content %></p>
+</div>
+
